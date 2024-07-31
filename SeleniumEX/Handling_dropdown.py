@@ -28,7 +28,7 @@ for option in options:
     print("options text is ", option.text, "lan attribute is " + option.get_attribute("lang"))
 print("Total options are : ", len(options))
 
-print("----------------------------------------")
+print("-----------------Find element by tag-----------------------")
 
 links = driver.find_elements(By.TAG_NAME, "a")
 print("Total Links are ", len(links))
